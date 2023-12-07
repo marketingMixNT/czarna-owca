@@ -13,7 +13,7 @@
                             <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 25px;">
                                 <div class="gdlr-core-title-item-title-wrap">
                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test" style="font-size: 30px; font-weight: 500; letter-spacing: 0px; text-transform: none; color: #1e1e1e;">
-                                        Discover the luxury in our gallery<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+                                        Galeria<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                     </h3>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
                             style="
-                                background-image: url({{asset('assets/images/hotel_1.webp')}});
+                                background-image: url({{asset('assets/images/owce-dwie_2.webp')}});
                                 background-size: cover;
                                 background-position: center;
                             "
@@ -61,7 +61,7 @@
                     <div class="gdlr-core-pbf-background-wrap" >
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url({{asset('assets/images/hotel_1.webp')}}); background-size: cover; background-position: center;"
+                            style="background-image: url({{asset('assets/images/owce-dwie_11.webp')}}); background-size: cover; background-position: center;"
                             data-parallax-speed="0"
                         ></div>
                     </div>
@@ -83,7 +83,7 @@
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
                             style="
-                                background-image: url({{asset('assets/images/hotel_1.webp')}});
+                                background-image: url({{asset('assets/images/owce-dwie_21.webp')}});
                                 opacity: 0.8;
                                 background-size: cover;
                                 background-position: center;
@@ -109,7 +109,7 @@
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
                             style="
-                                background-image: url({{asset('assets/images/hotel_1.webp')}});
+                                background-image: url({{asset('assets/images/owce-dwie_36.webp')}});
                                 opacity: 0.9;
                                 background-size: cover;
                                 background-position: center;
@@ -133,7 +133,7 @@
                         href="/hotale/hotel1/room-search/?room_amount=1&#038;room-search="
                         id="gdlr-core-button-id-4"
                     >
-                        <span class="gdlr-core-content">Check More Photos</span>
+                        <span class="gdlr-core-content">Zobacz Wszystkie Zdjęcia</span>
                     </a>
                 </div>
             </div>

@@ -3,7 +3,9 @@
         <div class="gdlr-core-pbf-background-wrap"></div>
 
         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js" data-gdlr-animation="fadeInUp"
-            data-gdlr-animation-duration="600ms" data-gdlr-animation-offset="0.8" style="display:flex;flex-direction:column;justify-content: space-around; align-items: center; min-height:400px">
+            data-gdlr-animation-duration="600ms" data-gdlr-animation-offset="0.8" 
+            {{-- style="display:flex;flex-direction:column;justify-content: space-around; align-items: center; min-height:400px" --}}
+            >
             <div class="gdlr-core-pbf-element">
                 <div class="gdlr-core-image-item gdlr-core-item-pdb gdlr-core-center-align gdlr-core-item-pdlr">
                     <div class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
@@ -15,7 +17,7 @@
             </div>
             <div class="gdlr-core-pbf-element">
                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"
-                    style="padding-bottom: 20px;">
+                    >
                     <div class="gdlr-core-title-item-title-wrap">
                         <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test"
                             style="font-size: 25px; font-weight: 500; letter-spacing: 0px; text-transform: none;">
@@ -25,7 +27,7 @@
                     </div>
                 </div>
             </div>
-            <div class="gdlr-core-pbf-element">
+            {{-- <div class="gdlr-core-pbf-element">
                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align"
                     style="padding-bottom: 22px;">
                     <div class="gdlr-core-text-box-item-content" style="text-transform: none; color: #94959b;">
@@ -42,7 +44,7 @@
                         <span class="gdlr-core-content">Read More</span>
                     </a>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>

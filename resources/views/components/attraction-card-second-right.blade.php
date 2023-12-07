@@ -43,7 +43,7 @@
                             border-color: #dadada;
                         "
                     >
-                        <span class="gdlr-core-content">Learn More<i class="gdlr-core-pos-right icon-arrow-right" style="font-size: 16px; color: #000000;"></i></span>
+                        <span class="gdlr-core-content">Dowiedz się więcej<i class="gdlr-core-pos-right icon-arrow-right" style="font-size: 16px; color: #000000;"></i></span>
                     </a>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                         class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-round"
                         style="border-width: 0px;"
                     >
-                        <img src="{{asset('assets/images/hotel_1.webp')}}" alt="" width="1300" height="716" title="bar" />
+                        <img src="{{$img}}" alt="" width="1300" height="716" title="bar" />
                     </div>
                 </div>
             </div>

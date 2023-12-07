@@ -2,7 +2,7 @@
     
     <div class="gdlr-core-pbf-background-wrap">
         <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-            style="background-image: url({{ asset('assets/images/hotel_1.webp') }}); background-size: cover; background-position: center;"
+            style="background-image: url({{ asset('assets/images/owce-dwie_34.webp') }}); background-size: cover; background-position: center;"
             data-parallax-speed="0">
         </div>
         <div class="overlay"></div>
@@ -21,13 +21,13 @@
                                 <div class="gdlr-core-title-item-title-wrap">
                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test"
                                         style="font-size: 96px; font-weight: 200; letter-spacing: 4px; text-transform: none; color: #ffffff;">
-                                        <span style="font-weight: 500;">Javea Dream</span> Apartments<span
+                                       Apartamenty <span style="font-weight: 500;"> Dwie Owce</span><span
                                             class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                     </h3>
                                 </div>
                                 <span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
                                     style="font-size: 37px; font-weight: 300; font-style: normal; letter-spacing: 4px; color: #ffffff;">
-                                    Savor the Sun <span style="font-weight: 500;">Relish the Comfort</span>
+                                    <span style="font-weight: 500;">Twoja Przygoda</span> zaczyna się tutaj
                                 </span>
                             </div>
                         </div>

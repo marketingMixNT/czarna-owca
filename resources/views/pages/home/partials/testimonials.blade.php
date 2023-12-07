@@ -17,14 +17,13 @@
                                 <div class="gdlr-core-title-item-title-wrap">
                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test"
                                         style="font-size: 50px; font-weight: 400; letter-spacing: 0px; text-transform: none;">
-                                        Testimonial<span
+                                        Opinie naszych Gości<span
                                             class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                     </h3>
                                 </div>
                                 <span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
                                     style="font-size: 20px; font-style: normal; letter-spacing: 0px; color: #94959b; margin-top: 20px;">
-                                    All our hotels are fabulous, they are destinations unto themselves. We have crossed
-                                    the globe to bring you only the best.
+                                    Lorem ipsum dolor sit amet consectetur adipiscing elit inceptos, gravida aenean accumsan hac sociosqu massa elementum, dui platea pulvinar donec praesent montes nec. Diam sociosqu massa nunc potenti nisl himenaeos scelerisque facilisis feugiat, suspendisse velit tortor hac curae et sapien nibh, praesent non lectus ut faucibus imperdiet fermentum fames.
                                 </span>
                             </div>
                         </div>

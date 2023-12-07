@@ -1,10 +1,9 @@
 <div class="cookie-bar " style="z-index: 10000;" id="cookieBox">
     <div class="cookie-bar__container">
 
-        <p >This website uses cookies to ensure you get the best experience on our platform.
-            By continuing to browse our website, you consent to our use of cookies.</p>
+        <p >Ta witryna używa plików cookie, aby zapewnić Ci najlepsze doświadczenie podczas korzystania z naszej platformy. Kontynuując przeglądanie naszej witryny, wyrażasz zgodę na korzystanie z plików cookie.</p>
             <div class="cookie-bar__actions">
-                <a href="" target="_blank">Find out more</a>
+                <a href="" target="_blank">Dowiedz się więcej</a>
                <button id="acceptBtn">OK</button>
             </div>
         </div>

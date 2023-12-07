@@ -16,7 +16,7 @@
                 data-checkout-label="Check Out"
                 data-label="Book Now"
             >
-                Book Now<span class="tourmaster-count">0</span>
+                Zarezerwuj<span class="tourmaster-count">0</span>
             </a>
             <div class="tourmaster-room-cart-item-wrap">
                 <div class="tourmaster-room-cart-items">

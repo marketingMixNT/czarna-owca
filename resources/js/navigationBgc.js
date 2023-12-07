@@ -2,6 +2,7 @@ const nav = document.querySelector(".desktop-nav-container");
 const bookBtn = document.querySelector('#tourmaster-room-navigation-checkout-button')
 const menuItems = document.querySelectorAll('.menu-ite a')
 const dropdown = document.querySelector('.menu-item.menu-item-has-children.hotale-normal-menu a')
+const menuItemsDrop = document.querySelectorAll('#menu-main-navigation-1 li a')
 
 
 console.log(dropdown);
@@ -15,6 +16,7 @@ window.addEventListener("scroll", () => {
         bookBtn.classList.remove('btn--secondary')
         bookBtn.classList.add('btn--third')
         menuItems.forEach(item=>item.style.color='white')
+        menuItemsDrop.forEach(item=>item.style.color='white')
         dropdown.style.color='white'
 
     }else{
@@ -22,6 +24,7 @@ window.addEventListener("scroll", () => {
         bookBtn.classList.add('btn--secondary')
         bookBtn.classList.remove('btn--third')
         menuItems.forEach(item=>item.style.color='black')
+        menuItemsDrop.forEach(item=>item.style.color='black')
         dropdown.style.color='black'
     }
 });

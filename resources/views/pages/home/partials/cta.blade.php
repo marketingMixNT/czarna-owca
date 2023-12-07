@@ -16,7 +16,7 @@
                     <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 20px;">
                         <div class="gdlr-core-title-item-title-wrap">
                             <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test" style="font-size: 37px; font-weight: 400; letter-spacing: 0px; text-transform: none;">
-                                Offering a series of comfortable and lavish hotels residences<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+                                Owce Dwie<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                             </h3>
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                 <div class="gdlr-core-pbf-element">
                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 22px;">
                         <div class="gdlr-core-text-box-item-content" style="font-size: 20px; text-transform: none; color: #94959b;">
-                            <p>All our hotels are fabulous, they are destinations unto themselves. We have crossed the globe to bring you only the best.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vestibulum leo, sociis tincidunt non facilisi malesuada hendrerit sapien venenatis, cum nibh imperdiet mi vel euismod mus varius.</p>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                             href="/hotale/hotel1/room-search/?room_amount=1&#038;room-search="
                             id="gdlr-core-button-id-4"
                         >
-                            <span class="gdlr-core-content">Book Now</span>
+                            <span class="gdlr-core-content">Zarezerwuj</span>
                         </a>
                     </div>
                 </div>
@@ -55,7 +55,7 @@
                 <div class="gdlr-core-pbf-element">
                     <div class="gdlr-core-image-item gdlr-core-item-pdb gdlr-core-center-align gdlr-core-item-pdlr">
                         <div class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle" style="border-width: 0px;">
-                            <img src="{{asset('assets/images/hotel_1.webp')}}" alt="" width="570" height="450" title="hotel-about-right-img" />
+                            <img src="{{asset('assets/images/owce-dwie_1.webp')}}" alt="" width="570" height="450" title="hotel-about-right-img"  style="max-height:600px;object-fit:cover"/>
                         </div>
                     </div>
                 </div>

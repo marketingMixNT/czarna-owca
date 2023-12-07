@@ -61,7 +61,7 @@
                             border-color: #dadada;
                         "
                     >
-                        <span class="gdlr-core-content">Learn More<i class="gdlr-core-pos-right icon-arrow-right" style="font-size: 16px; color: #000000;"></i></span>
+                        <span class="gdlr-core-content">Dowiedz się więcej<i class="gdlr-core-pos-right icon-arrow-right" style="font-size: 16px; color: #000000;"></i></span>
                     </a>
                 </div>
             </div>
