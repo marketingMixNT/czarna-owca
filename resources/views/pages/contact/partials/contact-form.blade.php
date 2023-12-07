@@ -10,11 +10,11 @@
                             <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr" style="padding-bottom: 60px;">
                                 <div class="gdlr-core-title-item-title-wrap">
                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test" style="font-size: 39px; font-weight: 600; letter-spacing: 0px; text-transform: none;">
-                                        Leave us your info<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+                                        Masz jakieś pytania?<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                     </h3>
                                 </div>
                                 <span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption" style="font-size: 19px; font-style: normal; letter-spacing: 0px;">
-                                    and we will get back to you.
+                                   Chętnie na nie odpowiemy!
                                 </span>
                             </div>
                         </div>
@@ -27,16 +27,16 @@
                                     </div>
                                     <form method="post" action="contactform/contactengine.php">
                                         
-                                        <input type="text" name="Name" id="Name"  placeholder="Name:" class="input"/>
+                                        <input type="text" name="Name" id="Name"  placeholder="Imię:" class="input"/>
                                         
-                                        <input type="tel" name="phone" id="phone"  placeholder="Phone:" class="input"/>
+                                        <input type="tel" name="phone" id="phone"  placeholder="Telefon:" class="input"/>
 
                                         <input type="email" name="Email" id="Email"  placeholder="Email:" class="input"/>
 
                                         
-                                        <textarea name="Message" rows="20" cols="20" id="Message" placeholder="MEssage:" class="input"></textarea>
+                                        <textarea name="Message" rows="20" cols="20" id="Message" placeholder="Wiadomość:" class="input"></textarea>
 
-                                        <input type="submit" name="submit" value="Send" class="submit-button btn--primary" />
+                                        <input type="submit" name="submit" value="Wyślij" class="submit-button btn--primary" />
                                     </form>
                                 </div>
                             </div>

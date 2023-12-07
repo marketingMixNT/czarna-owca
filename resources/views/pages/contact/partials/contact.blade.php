@@ -15,7 +15,7 @@
                 Lorem ipsum dolor sit amet consectetur adipiscing elit praesent ad cras,
             </x-slot>
             <x-slot name="link">
-                <a style="text-decoration: underline; color:white;text-decoration:none" href="#">+48 533 533 533</a>
+                <a style="text-decoration: underline; color:white;text-decoration:none;" href="#">+48 533 533 533</a>
             </x-slot>
            </x-contact-card>
 
@@ -31,7 +31,7 @@
             </x-slot>
            </x-contact-card>
 
-           <x-contact-card title="Address">
+           <x-contact-card title="Adres">
             <x-slot name="icon">
                 <i class="gdlr-core-icon-item-icon fa fa-envelope-o gdlr-core-skin-e-content" style="color: #000000; font-size: 31px; min-width: 31px; min-height: 31px;"></i>
             </x-slot>
@@ -39,7 +39,7 @@
                 Lorem ipsum dolor sit amet consectetur adipiscing elit praesent ad cras,
             </x-slot>
             <x-slot name="link">
-                <a style="text-decoration: underline; color:white;text-decoration:none" href="#">View in google maps</a>
+                <a style="text-decoration: underline; color:white;text-decoration:none" href="#">Zobacz na mapie</a>
             </x-slot>
            </x-contact-card>
 
