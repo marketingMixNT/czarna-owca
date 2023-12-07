@@ -107,7 +107,7 @@
                                         <div class="gdlr-core-title-item-title-wrap">
                                             <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test"
                                                 style="font-size: 25px; font-weight: 500; letter-spacing: 0px; text-transform: none;">
-                                                Room Amenities<span
+                                                Udogodnienia<span
                                                     class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                             </h3>
                                         </div>
@@ -119,29 +119,7 @@
 
                     {{ $rooms_amenities }}
 
-                    <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first"
-                        id="gdlr-core-column-16">
-                        <div class="gdlr-core-pbf-column-content-margin gdlr-core-js"
-                            style="margin: 0px 0px 0px 0px; padding: 45px 0px 0px 0px;">
-                            <div class="gdlr-core-pbf-background-wrap"></div>
-                            <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"
-                                        style="padding-bottom: 40px;">
-                                        <div class="gdlr-core-title-item-title-wrap">
-                                            <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test"
-                                                style="font-size: 25px; font-weight: 500; letter-spacing: 0px; text-transform: none;">
-                                                Hotel Amenities<span
-                                                    class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    {{ $hotel_amenities }}
+                    
 
                 </div>
             </div>
@@ -203,7 +181,7 @@
                                     <div class="gdlr-core-title-item-title-wrap">
                                         <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test"
                                             style="font-size: 31px; font-weight: 500; letter-spacing: 0px; text-transform: none;">
-                                            More Rooms<span
+                                            Pozostałe Pokoje<span
                                                 class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                         </h3>
                                     </div>

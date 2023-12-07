@@ -2,11 +2,13 @@ const nav = document.querySelector(".desktop-nav-container");
 const bookBtn = document.querySelector('#tourmaster-room-navigation-checkout-button')
 const menuItems = document.querySelectorAll('.menu-ite a')
 const dropdown = document.querySelector('.menu-item.menu-item-has-children.hotale-normal-menu a')
-const menuItemsDrop = document.querySelectorAll('#menu-main-navigation-1 li a')
+
+const menuItemsDrop = document.querySelectorAll('.sf-with-ul-pre')
 
 
-console.log(dropdown);
 const height = 250;
+
+console.log(menuItemsDrop);
 
 window.addEventListener("scroll", () => {
     const actualPos = window.scrollY;
@@ -16,8 +18,10 @@ window.addEventListener("scroll", () => {
         bookBtn.classList.remove('btn--secondary')
         bookBtn.classList.add('btn--third')
         menuItems.forEach(item=>item.style.color='white')
+        menuItemsDrop.style.color='white'
         menuItemsDrop.forEach(item=>item.style.color='white')
-        dropdown.style.color='white'
+
+        menuItemsDrop.classList.add('test')
 
     }else{
         nav.classList.remove("change-bgc");

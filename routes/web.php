@@ -23,10 +23,10 @@ Route::view('/pokoje', 'pages.apartments')->name('apartments');
 
 Route::prefix('/pokoje')->group(function () {
     Route::view('/pokój-1', 'pages.apartments.apartment-1')->name('apartment-1');
-    Route::view('/pokój-2', 'pages.apartments.apartment-1')->name('apartment-2');
-    Route::view('/pokój-3', 'pages.apartments.apartment-1')->name('apartment-3');
-    Route::view('/pokój-4', 'pages.apartments.apartment-1')->name('apartment-4');
-    Route::view('/pokój-5', 'pages.apartments.apartment-1')->name('apartment-5');
+    Route::view('/pokój-2', 'pages.apartments.apartment-2')->name('apartment-2');
+    Route::view('/pokój-3', 'pages.apartments.apartment-3')->name('apartment-3');
+    Route::view('/pokój-4', 'pages.apartments.apartment-4')->name('apartment-4');
+    
 });
 
 Route::view('/atrakcje','pages.attractions')->name('attractions');

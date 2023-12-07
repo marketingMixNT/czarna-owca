@@ -17,9 +17,7 @@
             <li class="menu-item" data-size="60">
                 <a href="{{route('apartment-4')}}">Pokój 4</a>
             </li>
-            <li class="menu-item" data-size="60">
-                <a href="{{route('apartment-5')}}">Pokój 5</a>
-            </li>
+            
           
         </ul>
     </li>

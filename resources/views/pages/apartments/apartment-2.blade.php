@@ -1,8 +1,8 @@
 <x-layouts.master>
 
-    <x-breadcrumbs title="Pokój 1" bgi="{{ asset('assets/images/owce-dwie_40.webp') }}" />
+    <x-breadcrumbs title="Pokój 2" bgi="{{ asset('assets/images/owce-dwie_40.webp') }}" />
 
-    <x-apartment.template title="Pokój 1" price="od 299 zł">
+    <x-apartment.template title="Pokój 2" price="od 399 zł">
 
         <x-slot name="thumbnail">
             <x-apartment.thumbnail img="{{ asset('assets/images/owce-dwie_24.webp') }}" />
@@ -66,9 +66,9 @@
 
         <x-slot name='otherRooms'>
             <x-apartment.moreRoomsItem 
-            title='Pokój 2'
-            price="399 zł"
-            href="{{route('apartment-2')}}"
+            title='Pokój 1'
+            price="299 zł"
+            href="{{route('apartment-1')}}"
             img="{{asset('assets/images/owce-dwie_3.webp')}}"
             size="25 m²"
             guests="max 4 os."
