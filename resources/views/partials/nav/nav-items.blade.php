@@ -23,7 +23,8 @@
           
         </ul>
     </li>
-   
+    <li class="menu-ite hotale-normal-menu"><a href="{{route('attractions')}}">Atrakcje</a></li>
+
     <li class="menu-ite hotale-normal-menu" ><a href="{{route('gallery')}}" >Galeria</a></li>
 
 

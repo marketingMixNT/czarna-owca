@@ -18,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/','pages.home.index')->name('home');
 Route::view('/about','pages.about')->name('about');
+
+Route::view('/attractions','pages.attractions')->name('attractions');
 Route::view('/apartments', 'pages.apartments')->name('apartments');
 
 Route::prefix('/apartments')->group(function () {
