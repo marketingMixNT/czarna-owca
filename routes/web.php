@@ -17,19 +17,20 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::view('/','pages.home.index')->name('home');
-Route::view('/about','pages.about')->name('about');
+Route::view('/o-nas','pages.about')->name('about');
 
-Route::view('/attractions','pages.attractions')->name('attractions');
-Route::view('/apartments', 'pages.apartments')->name('apartments');
+Route::view('/pokoje', 'pages.apartments')->name('apartments');
 
-Route::prefix('/apartments')->group(function () {
-    Route::view('/arena-dream-a3a', 'pages.apartments.apartment-1')->name('apartment-1');
-    Route::view('/arena-dream-d2b', 'pages.apartments.apartment-1')->name('apartment-2');
-    Route::view('/rennes-areal-3', 'pages.apartments.apartment-1')->name('apartment-3');
-    Route::view('/rennes-areal-6', 'pages.apartments.apartment-1')->name('apartment-4');
-    Route::view('/isleta-marina', 'pages.apartments.apartment-1')->name('apartment-5');
+Route::prefix('/pokoje')->group(function () {
+    Route::view('/pokój-1', 'pages.apartments.apartment-1')->name('apartment-1');
+    Route::view('/pokój-2', 'pages.apartments.apartment-1')->name('apartment-2');
+    Route::view('/pokój-3', 'pages.apartments.apartment-1')->name('apartment-3');
+    Route::view('/pokój-4', 'pages.apartments.apartment-1')->name('apartment-4');
+    Route::view('/pokój-5', 'pages.apartments.apartment-1')->name('apartment-5');
 });
 
-Route::view('/gallery','pages.gallery')->name('gallery');
+Route::view('/atrakcje','pages.attractions')->name('attractions');
 
-Route::view('/contact','pages.contact.index')->name('contact');
+Route::view('/galeria','pages.gallery')->name('gallery');
+
+Route::view('/kontakt','pages.contact.index')->name('contact');
