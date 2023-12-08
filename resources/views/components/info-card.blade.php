@@ -1,3 +1,4 @@
+<div {{ $attributes(['class' =>'info-card'])}}>
 <div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first" id="gdlr-core-column-2" style="display:flex;justify-content: center;align-items: center">
 
     <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
@@ -49,4 +50,6 @@
 
         </div>
     </div>
+</div>
+
 </div>

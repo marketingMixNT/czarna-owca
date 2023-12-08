@@ -1,6 +1,6 @@
 <x-layouts.master>
-    @section('title', '')
-    @section('description', '')
+    {{-- @section('title', '')
+    @section('description', '') --}}
 
     <x-breadcrumbs title="O nas" bgi="{{asset('assets/images/owce-dwie_22.webp')}}"/>
  
@@ -19,7 +19,7 @@
                                 >
                                 <div class="gdlr-core-title-item-title-wrap">
                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test" style="font-size: 50px; font-weight: 400; letter-spacing: 0px; text-transform: none;">
-                                        Willa Owce Dwie<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+                                        witaj na stronie Owce Dwie<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                     </h3>
                                 </div>
                                 </div>
@@ -34,7 +34,7 @@
                             <div class="gdlr-core-pbf-element">
                                 <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align gdlr-core-no-p-space">
                                     <div class="gdlr-core-text-box-item-content" style="font-size: 21px; font-weight: 400; letter-spacing: 0px; text-transform: none; color: #898989;">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit senectus rhoncus mauris mus, luctus pellentesque metus ac sapien integer congue ante cras cubilia condimentum, lacinia fermentum vel bibendum magna torquent ultrices parturient vulputate sollicitudin.</p>
+                                        <p>Twój wymarzony pobyt zaczyna się tutaj-odkryj przyjemność w każdym detalu</p>
                                     </div>
                                 </div>
                             </div>
@@ -64,13 +64,14 @@
         <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
             <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container attractions--second-container">
                
-                <x-info-left img="{{asset('assets/images/owce-dwie_22.webp')}}" title="Lorem Ipsum Dolor Sit" >Dolina Lorem ipsum dolor sit amet consectetur, adipiscing elit accumsan quisque iaculis, a donec aliquet nisl. Litora sollicitudin lectus ligula pharetra vitae risus parturient viverra dapibus, ultrices nulla torquent libero vulputate auctor class iaculis aliquam, bibendum nec nostra pellentesque duis ultricies orci quam. Proin tellus euismod etiam erat integer ut maecenas vivamus sem malesuada, orci ultricies bibendum risus sociosqu dapibus interdum libero nascetur, eu ridiculus</x-info-left>
+                <x-info-card img="{{asset('assets/images/owce-dwie_22.webp')}}" title="" >Willa "Owce Dwie" to niezwykłe miejsce, w którym tradycja spotyka się z nowoczesnością, tworząc atmosferę pełną komfortu i relaksu. Położona w otoczeniu szlaków, tuż obok Skoczni, willa oferuje niezapomniane widoki, które zaspokoją nawet najbardziej wymagających Gości.</x-info-card>
     
-                <x-info-right img="{{asset('assets/images/owce-dwie_32.webp')}}" title="Lorem Ipsum Dolor Sit" >Lorem ipsum dolor sit amet consectetur, adipiscing elit accumsan quisque iaculis, a donec aliquet nisl. Litora sollicitudin lectus ligula pharetra vitae risus parturient viverra dapibus, ultrices nulla torquent libero vulputate auctor class iaculis aliquam, bibendum nec nostra pellentesque duis ultricies orci quam. Proin tellus euismod etiam erat integer ut maecenas vivamus sem malesuada, orci ultricies bibendum risus sociosqu dapibus interdum libero nascetur, eu ridiculus</x-attraction-card-second-rig>
+                <x-info-card class="info-card--reverse" img="{{asset('assets/images/owce-dwie_32.webp')}}" title="" >Wnętrza Willi "Owce Dwie" to harmonijne połączenie nowoczesnego designu z elementami charakterystycznymi dla stylu góralskiego. Starannie dobrany wystrój sprawia, że każdy detal oddaje unikalny urok tego miejsca. Codziennie nasz zaangażowany personel dba o to, aby nasi Goście doświadczali pełni relaksu i satysfakcji podczas pobytu.</x-info-card>
                
-                <x-info-left img="{{asset('assets/images/owce-dwie_42.webp')}}" title="Lorem Ipsum Dolor Sit
-                " >Lorem ipsum dolor sit amet consectetur, adipiscing elit accumsan quisque iaculis, a donec aliquet nisl. Litora sollicitudin lectus ligula pharetra vitae risus parturient viverra dapibus, ultrices nulla torquent libero vulputate auctor class iaculis aliquam, bibendum nec nostra pellentesque duis ultricies orci quam. Proin tellus euismod etiam erat integer ut maecenas vivamus sem malesuada, orci ultricies bibendum risus sociosqu dapibus interdum libero nascetur, eu ridiculus</x-info-left>
-               
+                <x-info-card img="{{asset('assets/images/owce-dwie_42.webp')}}" title="
+                " >Ponadto, każdego dnia zapewniamy naszym Gościom urozmaicone śniadania, dostosowane do różnorodnych gustów i preferencji. "Owce Dwie" nie tylko zapewniają wyjątkowe doświadczenie wizualne, ale również kulinarną przyjemność, dbając o zaspokojenie podniebienia każdego Gościa.</x-info-card>
+
+                <x-info-card class="info-card--reverse" img="{{asset('assets/images/owce-dwie_32.webp')}}" title="" >Willa "Owce Dwie" to miejsce, gdzie tradycja, piękno przyrody i nowoczesność łączą się, tworząc niepowtarzalną atmosferę idealną do wypoczynku i relaksu.</x-info-card>
                
             </div>
         </div>
