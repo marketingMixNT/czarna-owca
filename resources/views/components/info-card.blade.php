@@ -43,7 +43,7 @@
                     style="padding-bottom: 20px;">
                     <div class="gdlr-core-text-box-item-content"
                         style="font-size: 18px; font-weight: 400; text-transform: none; color: black;">
-                        <p>{{ $slot }}</p>
+                        <div>{{ $slot }}</div>
                     </div>
                 </div>
             </div>
