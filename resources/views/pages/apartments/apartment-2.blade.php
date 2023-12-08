@@ -34,28 +34,40 @@
 
         <x-slot name="rooms_amenities">
             <x-apartment.amenityCard title="TV">
-                <i class="gdlr-icon-watch-tv" style="color: #1e1e1e;"></i>
+                <img src="{{ asset('assets/icons/tv.png') }}" alt="">
             </x-apartment.amenityCard>
             <x-apartment.amenityCard title="Internet">
-                <i class="gdlr-icon-wifi-signal" style="color: #1e1e1e;"></i>
+                <img src="{{ asset('assets/icons/wifi--2.png') }}" alt="">
             </x-apartment.amenityCard>
             <x-apartment.amenityCard title="Sejf">
-                <i class="gdlr-icon-safe-box1" style="color: #1e1e1e;"></i>
+                <img src="{{ asset('assets/icons/safe.png') }}" alt="">
             </x-apartment.amenityCard>
             <x-apartment.amenityCard title="Łazienka z Prysznicem">
-                <i class="gdlr-icon-shower" style="color: #1e1e1e;"></i>
+                <img src="{{ asset('assets/icons/shower.png') }}" alt="">
             </x-apartment.amenityCard>
             <x-apartment.amenityCard title="Szafa">
-                <i class="gdlr-icon-bathrobe" style="color: #1e1e1e;"></i>
+                <img src="{{ asset('assets/icons/hanger.png') }}" alt="">
             </x-apartment.amenityCard>
             <x-apartment.amenityCard title="Biurko">
-                <i class="gdlr-icon-workspace" style="color: #1e1e1e;"></i>
+                <img src="{{ asset('assets/icons/desk.png') }}" alt=""> 
             </x-apartment.amenityCard>
             <x-apartment.amenityCard title="Ręczniki">
-                <i class="gdlr-icon-towel" style="color: #1e1e1e;"></i>
+                <img src="{{ asset('assets/icons/towel.png') }}" alt=""> 
             </x-apartment.amenityCard>
-           
-           
+            <x-apartment.amenityCard title="Wykładzina">
+                <img src="{{ asset('assets/icons/carpet.png') }}" alt=""> 
+            </x-apartment.amenityCard>
+            <x-apartment.amenityCard title="Wykładzina">
+                <img src="{{ asset('assets/icons/cosmetics.png') }}" alt=""> 
+            </x-apartment.amenityCard>
+            <x-apartment.amenityCard title="Kawa i Herbata">
+                <img src="{{ asset('assets/icons/coffee.png') }}" alt=""> 
+            </x-apartment.amenityCard>
+            <x-apartment.amenityCard title="Lodówka">
+                <img src="{{ asset('assets/icons/fridge.png') }}" alt=""> 
+            </x-apartment.amenityCard>
+
+
         </x-slot>
 
         

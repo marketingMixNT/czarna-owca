@@ -16,9 +16,9 @@
             <div class="tourmaster-room-content-wrap gdlr-core-skin-e-background gdlr-core-js"
             data-sync-height="room-item-6"
             style="padding-top: 75px; padding-bottom: 45px;">
-            <div class="tourmaster-price-wrap tourmaster-with-bg"><span
+            {{-- <div class="tourmaster-price-wrap tourmaster-with-bg"><span
                     class="tourmaster-head">Od</span><span
-                    class="tourmaster-price">{{$price}}</span></div>
+                    class="tourmaster-price">{{$price}}</span></div> --}}
             <h3 class="tourmaster-room-title gdlr-core-skin-title"
                 style="font-size: 26px; font-weight: 500; letter-spacing: 0px; text-transform: none;">
                 <a href="single-room.html">{{$title}}</a>
