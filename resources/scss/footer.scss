@@ -66,6 +66,12 @@
             & span{
                 color: white;
             }
+            & a{
+                color:colors.$font-light;
+                &:hover{
+color:rgb(160, 159, 159) !important
+                }
+            }
         }
     }
     &__author{

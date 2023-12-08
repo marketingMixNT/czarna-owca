@@ -26,12 +26,12 @@
                                     <div class="tourmaster-room-title-item tourmaster-item-mglr tourmaster-item-pdb clearfix"
                                         style="padding-bottom: 35px;">
                                         <h3 class="tourmaster-room-title-item-title">{{ $title }}</h3>
-                                        <div class="tourmaster-room-title-price">
+                                        {{-- <div class="tourmaster-room-title-price">
                                             <div class="tourmaster-head">
-                                                <span class="tourmaster-label">From</span><span
+                                                <span class="tourmaster-label">Od</span><span
                                                     class="tourmaster-price">{{ $price }}</span>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                                 <div class="gdlr-core-pbf-element">
@@ -201,21 +201,23 @@
                                         data-column="3" data-move="1" data-nav="navigation-outer"
                                         data-nav-parent="self" data-vcenter-nav="1">
                                         <div class="gdlr-core-flexslider-custom-nav gdlr-core-style-navigation-outer gdlr-core-center-align"
-                                            style="margin-top: -60px;">
+                                            style="margin-top: -60px; display:none">
                                             <i class="icon-arrow-left flex-prev"
                                                 style="color: #c4c4c4; font-size: 34px; left: -90px;"></i>
                                             <i class="icon-arrow-right flex-next"
                                                 style="color: #c4c4c4; font-size: 34px; right: -90px;"></i>
                                         </div>
-                                        <ul class="slides">
-                                           
-                                            {{$otherRooms}}
+                                        {{-- <ul class="slides"> --}}
+                                           <div class="other-rooms">
+
+                                               {{$otherRooms}}
+                                            </div>
                                           
                                            
                                           
                                           
                                           
-                                        </ul>
+                                        {{-- </ul> --}}
                                     </div>
                                 </div>
                             </div>

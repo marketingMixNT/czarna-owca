@@ -92,7 +92,7 @@
 
                                         <x-room-card href="{{ route('apartment-3') }}"
                                             img="{{ asset('assets/images/owce-dwie_4.webp') }}" price="500 zł"
-                                            title="Pokój Dwuusobowy Deluxe z Balkonem">
+                                            title="Dwuusobowy Pokój Deluxe z Balkonem">
                                             <div class="tourmaster-info-wrap clearfix">
 
                                                 <div class="tourmaster-info tourmaster-info-guest-amount"><i

@@ -6,19 +6,14 @@
         <a href="{{route('apartments')}}" class="sf-with-ul-pre">Pokoje</a>
         <ul class="sub-menu">
             <li class="menu-item" data-size="60">
-                <a href="{{route('apartment-1')}}">Pokój 1</a>
+                <a href="{{route('apartment-1')}}">Rodzinny Pokój Deluxe z Balkonem</a>
             </li>
             <li class="menu-item" data-size="60">
-                <a href="{{route('apartment-2')}}">Pokój 2</a>
+                <a href="{{route('apartment-2')}}">Rodzinny Pokój Premiere z Balkonem</a>
             </li>
             <li class="menu-item" data-size="60">
-                <a href="{{route('apartment-3')}}">Pokój 3</a>
+                <a href="{{route('apartment-3')}}">Dwuusobowy Pokój Deluxe z Balkonem</a>
             </li>
-            <li class="menu-item" data-size="60">
-                <a href="{{route('apartment-4')}}">Pokój 4</a>
-            </li>
-            
-          
         </ul>
     </li>
     <li class="menu-ite hotale-normal-menu"><a href="{{route('attractions')}}">Atrakcje</a></li>

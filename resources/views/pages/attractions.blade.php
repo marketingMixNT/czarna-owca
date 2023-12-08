@@ -31,7 +31,7 @@
                     <div class="gdlr-core-pbf-column-content-margin gdlr-core-js" style="padding: 0px 0px 20px 0px;">
                         <div class="gdlr-core-pbf-background-wrap"></div>
                         <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js" style="max-width: 760px;">
-                            <div class="gdlr-core-pbf-element">
+                            {{-- <div class="gdlr-core-pbf-element">
                                 <div
                                     class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align gdlr-core-no-p-space">
                                     <div class="gdlr-core-text-box-item-content"
@@ -42,7 +42,7 @@
                                             parturient vulputate sollicitudin.</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="gdlr-core-pbf-element">
                                 <div
                                     class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-item-pdlr gdlr-core-center-align">

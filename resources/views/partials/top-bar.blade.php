@@ -4,9 +4,9 @@
         <div class="hotale-top-bar-container-inner clearfix">
             <div class="hotale-top-bar-left hotale-item-pdlr">
                 <div class="hotale-top-bar-left-text">
-                    <i class="icon-phone" style="font-size: 15px; color: white; margin-right: 10px;"></i><a href="#" style="color:white">1-634-567-34</a>
+                    <i class="icon-phone" style="font-size: 15px; color: white; margin-right: 10px;"></i><a href="tel:+48696770000" style="color:white">+48 696 770 000</a>
                     <i class="icon-envelope" style="font-size: 15px; color: white; margin-left: 25px; margin-right: 10px;"></i>
-                    <a href="mail" style="color: white !important;">test@gmail.com</a>
+                    <a href="mailto:hello@owcedwie.pl" style="color: white !important;">hello@owcedwie.pl</a>
                 </div>
             </div>
             <div class="hotale-logo hotale-item-pdlr">
@@ -40,13 +40,13 @@
                 
                 </div>
                 <div class="tourmaster-currency-switcher">
-                    <span class="tourmaster-head"><span style="color:white">ENG</span><i class="fa fa-sort-down" style="color:white"></i></span>
+                    <span class="tourmaster-head"><span style="color:white">PL</span><i class="fa fa-sort-down" style="color:white"></i></span>
                     <div class="tourmaster-currency-switcher-inner">
                         <div class="tourmaster-currency-switcher-content">
                             <ul>
-                                <li><a href="#">ENG</a></li>
-                                <li><a href="#">SPA</a></li>
                                 <li><a href="#">PL</a></li>
+                                <li><a href="#">ENG</a></li>
+                                
                             </ul>
                         </div>
                     </div>

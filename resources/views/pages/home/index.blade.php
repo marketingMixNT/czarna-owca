@@ -23,7 +23,7 @@
                     @include('pages.home.partials.attractions-second')
 
                     {{-- TESTIMONIALS --}}
-                    @include('pages.home.partials.testimonials')
+                    {{-- @include('pages.home.partials.testimonials') --}}
 
                     {{-- GALLERY --}}
                     @include('pages.home.partials.gallery')

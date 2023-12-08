@@ -91,3 +91,14 @@ a:hover {
         flex-direction: row-reverse;
     }
 }
+
+.other-rooms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include mixins.medium-devices{
+        flex-direction: row;
+    }
+}
+

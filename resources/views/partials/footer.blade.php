@@ -12,13 +12,13 @@
         <div class="footer__columns">
             <div class="footer__columns-box">
                 <h6>Adres:</h6>
-                <span>Testowa 123</span>
-                <span>34-400 Nowy Targ</span>
+                <span>Zwierzyniecka 9</span>
+                <span>34-500 Zakopane</span>
             </div>
             <div class="footer__columns-box">
                 <h6>Kontakt:</h6>
-                <span>123-456-789</span>
-                <span>test@gmail.com</span>
+                <a href="tel:48696770000">+48 696 770 000</a>
+                <a href="mailto:hello@owcedwie.pl">hello@owcedwie.pl</a>
             </div>
         </div>
         

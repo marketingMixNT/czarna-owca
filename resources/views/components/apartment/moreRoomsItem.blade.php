@@ -1,4 +1,4 @@
-<li class="gdlr-core-item-mglr">
+<div class="gdlr-core-item-mglr">
     <div class="tourmaster-room-grid">
         <div class="tourmaster-room-grid-inner">
             <div
@@ -23,10 +23,10 @@
                         <i class="gdlr-icon-group"></i><span
                             class="tourmaster-tail">{{$guests}}</span>
                     </div>
-                    <div class="tourmaster-info tourmaster-info-bed-type">
+                    {{-- <div class="tourmaster-info tourmaster-info-bed-type">
                         <i class="gdlr-icon-resize"></i><span
                             class="tourmaster-tail">{{$size}}</span>
-                    </div>
+                    </div> --}}
                     
                 </div>
                 <a class="tourmaster-read-more tourmaster-type-text "
@@ -36,4 +36,4 @@
             </div>
         </div>
     </div>
-</li>
+</div>

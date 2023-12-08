@@ -22,7 +22,7 @@
                                 <div class="gdlr-core-title-item-title-wrap">
                                     <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test"
                                         style="font-size: 96px; font-weight: 200; letter-spacing: 4px; text-transform: none; color: #ffffff;">
-                                        Willa <span style="font-weight: 500;"> Dwie Owce</span><span
+                                        Willa <span style="font-weight: 500;"> Owce Dwie</span><span
                                             class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                                     </h3>
                                 </div>
