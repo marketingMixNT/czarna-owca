@@ -47,7 +47,10 @@ background-color:colors.$main-400
     &--primary{
         background-color: colors.$main-400 !important;
         border-radius: 0px !important;
-
+&:hover{
+    background-color: colors.$main-200 !important;
+    color: colors.$font-light !important
+}
         
     }
     &--secondary{
@@ -71,4 +74,6 @@ background-color:colors.$main-400
 }
 
 
-
+a:hover{
+    color:colors.$main-200 !important
+}

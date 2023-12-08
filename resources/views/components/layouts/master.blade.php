@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hotel</title>
+
+    <title>@yield('title', 'Willa Dwie Owce - Twój wymarzony pobyt zaczyna się tutaj')</title>
+    <meta name="description" content="@yield('description', 'Willa "Owce Dwie" to niezwykłe miejsce, w którym tradycja spotyka się z nowoczesnością, tworząc atmosferę pełną komfortu i relaksu. ')">
     @include('includes.styles')
     @include('includes.fonts')
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])

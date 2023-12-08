@@ -7,12 +7,13 @@
         ></div>
     </div>
     <div class="gdlr-core-pbf-wrapper-content gdlr-core-js">
-        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom" style="max-width: 740px;">
+        <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container-custom" style="max-width: 1200px;">
             <div class="gdlr-core-pbf-element">
                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 50px;">
                     <div class="gdlr-core-title-item-title-wrap">
                         <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test" style="font-size: 60px; font-weight: 400; letter-spacing: 0px; text-transform: none; color: #ffffff;">
-                            To tutaj zaczyna się <span style="font-weight: 700;">Twoja przygoda</span><span style="font-size: 63px; font-weight: 600; color: #ffffff;">.</span>
+                            Twój wymarzony pobyt zaczyna się tutaj - 
+                        <br>odkryj przyjemność w każdym detalu 
                             <span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                         </h3>
                     </div>

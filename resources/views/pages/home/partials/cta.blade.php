@@ -16,7 +16,7 @@
                     <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr" style="padding-bottom: 20px;">
                         <div class="gdlr-core-title-item-title-wrap">
                             <h3 class="gdlr-core-title-item-title gdlr-core-skin-title class-test" style="font-size: 37px; font-weight: 400; letter-spacing: 0px; text-transform: none;">
-                                Owce Dwie<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+                                O nas<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
                             </h3>
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                 <div class="gdlr-core-pbf-element">
                     <div class="gdlr-core-text-box-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align" style="padding-bottom: 22px;">
                         <div class="gdlr-core-text-box-item-content" style="font-size: 20px; text-transform: none; color: #94959b;">
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit vestibulum leo, sociis tincidunt non facilisi malesuada hendrerit sapien venenatis, cum nibh imperdiet mi vel euismod mus varius.</p>
+                            <p>Willa "Owce Dwie" to niezwykłe miejsce, w którym tradycja spotyka się z nowoczesnością, tworząc atmosferę pełną komfortu i relaksu. Położona w otoczeniu szlaków, tuż obok Skoczni, willa oferuje niezapomniane widoki, które zaspokoją nawet najbardziej wymagających Gości.</p>
                         </div>
                     </div>
                 </div>
@@ -39,10 +39,10 @@
                     <div class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-left-align">
                         <a
                             class="gdlr-core-button gdlr-core-button-solid gdlr-core-left-align gdlr-core-button-no-border btn--primary"
-                            href="/hotale/hotel1/room-search/?room_amount=1&#038;room-search="
+                            href="{{route('about')}}"
                             id="gdlr-core-button-id-4"
                         >
-                            <span class="gdlr-core-content">Zarezerwuj</span>
+                            <span class="gdlr-core-content">Dowiedz się więcej</span>
                         </a>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 <x-layouts.master>
-
+    @section('title', '')
+    @section('description', '')
 
     <x-breadcrumbs title="O nas" bgi="{{asset('assets/images/owce-dwie_22.webp')}}"/>
  

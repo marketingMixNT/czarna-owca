@@ -6,7 +6,7 @@
             data-gdlr-animation-duration="600ms" data-gdlr-animation-offset="0.8" 
             {{-- style="display:flex;flex-direction:column;justify-content: space-around; align-items: center; min-height:400px" --}}
             >
-            <div class="gdlr-core-pbf-element">
+            <div class="gdlr-core-pbf-element" {{$attributes}}>
                 <div class="gdlr-core-image-item gdlr-core-item-pdb gdlr-core-center-align gdlr-core-item-pdlr">
                     <div class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle"
                         style="border-width: 0px; width: 88px; height:70px">

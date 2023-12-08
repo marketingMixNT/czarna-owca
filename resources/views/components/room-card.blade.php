@@ -27,7 +27,7 @@
            
                 <a class="tourmaster-read-more tourmaster-type-text"
                     href="{{$href}}">
-                    Zarezerwuj<i class="icon-arrow-right"></i>
+                    Zobacz<i class="icon-arrow-right"></i>
                 </a>
             </div>
         </div>

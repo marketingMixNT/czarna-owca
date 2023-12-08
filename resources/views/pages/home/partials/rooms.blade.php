@@ -13,7 +13,7 @@
             <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first" id="gdlr-core-column-2">
                 <div class="gdlr-core-pbf-column-content-margin gdlr-core-js" style="padding: 0px 0px 35px 0px;">
                     <div class="gdlr-core-pbf-background-wrap"></div>
-                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js" style="max-width: 660px;">
+                    <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js" style="max-width: 900px;">
                         <div class="gdlr-core-pbf-element">
                             <div
                                 class="gdlr-core-title-item gdlr-core-item-pdb clearfix gdlr-core-center-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr">
@@ -26,7 +26,7 @@
                                 </div>
                                 <span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption"
                                     style="font-size: 20px; font-style: normal; letter-spacing: 0px; color: #94959b; margin-top: 20px;">
-
+                                    W naszym obiekcie znajdziesz 12 przytulnych pokoi z osobnymi łazienkami, zapewniających wyjątkowy komfort podczas pobytu. Położenie naszego miejsca sprawia, że stanowi doskonałą bazę wypadową do górskich przygód. Profesjonalny personel jest gotowy zadbać o każdy detal Twojego pobytu, zapewniając niezapomniane doświadczenie.
                                 </span>
                             </div>
                         </div>
@@ -55,63 +55,59 @@
                                     <div class="gdlr-core-flexslider-custom-nav gdlr-core-style-navigation-outer gdlr-core-center-align"
                                         style="margin-top: -20px;">
                                         <i class="icon-arrow-left flex-prev"
-                                            style="color: #9e9e9e; font-size: 34px; left: -80px;"></i>
+                                            style="color: #9e9e9e; font-size: 34px; left: -80px;display:none" ></i>
                                         <i class="icon-arrow-right flex-next"
-                                            style="color: #9e9e9e; font-size: 34px; right: -80px;"></i>
+                                            style="color: #9e9e9e; font-size: 34px; right: -80px;display:none"></i>
                                     </div>
                                     <ul class="slides">
-                                        <x-room-card href="{{route('apartment-1')}}" img="{{ asset('assets/images/owce-dwie_4.webp') }}"
-                                            price="300 zł" title="Pokój 1">
-                                            <div class="tourmaster-info-wrap clearfix">
-
-                                                <div class="tourmaster-info tourmaster-info-guest-amount"><i
-                                                        class="gdlr-icon-group"></i><span class="tourmaster-tail">max 
-                                                        4os.</span></div>
-                                                <div class="tourmaster-info tourmaster-info-bed-type"><i
-                                                        class="gdlr-icon-resize"></i><span
-                                                        class="tourmaster-tail">25m²</span></div>
-                                            </div>
-                                        </x-room-card>
-                                        <x-room-card href="{{route('apartment-2')}}" img="{{ asset('assets/images/owce-dwie_23.webp') }}"
-                                            price="400 zł" title="Pokój 2">
+                                        {{-- FIRST ROOM --}}
+                                        <x-room-card href="{{ route('apartment-1') }}"
+                                            img="{{ asset('assets/images/owce-dwie_4.webp') }}" price="300 zł"
+                                            title="Rodzinny Pokój Deluxe z Balkonem">
                                             <div class="tourmaster-info-wrap clearfix">
 
                                                 <div class="tourmaster-info tourmaster-info-guest-amount"><i
                                                         class="gdlr-icon-group"></i><span class="tourmaster-tail">max
-                                                        4os.</span></div>
-                                                <div class="tourmaster-info tourmaster-info-bed-type"><i
+                                                        4 os.</span></div>
+                                                {{-- <div class="tourmaster-info tourmaster-info-bed-type"><i
                                                         class="gdlr-icon-resize"></i><span
-                                                        class="tourmaster-tail">30m²</span></div>
+                                                        class="tourmaster-tail">25m²</span></div> --}}
                                             </div>
                                         </x-room-card>
-                                        <x-room-card href="{{route('apartment-3')}}" img="{{ asset('assets/images/owce-dwie_4.webp') }}"
-                                            price="500 zł" title="Pokój 3">
+                                        {{-- SECOND ROOM --}}
+                                        <x-room-card href="{{ route('apartment-2') }}"
+                                            img="{{ asset('assets/images/owce-dwie_23.webp') }}" price="400 zł"
+                                            title="Rodzinny Pokój Premiere z Balkonem">
                                             <div class="tourmaster-info-wrap clearfix">
 
                                                 <div class="tourmaster-info tourmaster-info-guest-amount"><i
                                                         class="gdlr-icon-group"></i><span class="tourmaster-tail">max
-                                                        2os.</span></div>
-                                                <div class="tourmaster-info tourmaster-info-bed-type"><i
+                                                        4 os.</span></div>
+                                                {{-- <div class="tourmaster-info tourmaster-info-bed-type"><i
                                                         class="gdlr-icon-resize"></i><span
-                                                        class="tourmaster-tail">25m²</span></div>
+                                                        class="tourmaster-tail">30m²</span></div> --}}
                                             </div>
                                         </x-room-card>
-                                        <x-room-card href="{{route('apartment-4')}}" img="{{ asset('assets/images/owce-dwie_23.webp') }}"
-                                            price="600 zł" title="Pokój 4">
+                                        {{-- THIRD ROOM --}}
+
+                                        <x-room-card href="{{ route('apartment-3') }}"
+                                            img="{{ asset('assets/images/owce-dwie_4.webp') }}" price="500 zł"
+                                            title="Pokój Dwuusobowy Deluxe z Balkonem">
                                             <div class="tourmaster-info-wrap clearfix">
 
                                                 <div class="tourmaster-info tourmaster-info-guest-amount"><i
                                                         class="gdlr-icon-group"></i><span class="tourmaster-tail">max
-                                                        4os.</span></div>
-                                                <div class="tourmaster-info tourmaster-info-bed-type"><i
+                                                        2 os.</span></div>
+                                                {{-- <div class="tourmaster-info tourmaster-info-bed-type"><i
                                                         class="gdlr-icon-resize"></i><span
-                                                        class="tourmaster-tail">25m²</span></div>
+                                                        class="tourmaster-tail">25m²</span></div> --}}
                                             </div>
                                         </x-room-card>
                                        
-                                       
-                                       
-                                        
+
+
+
+
 
 
                                     </ul>
@@ -121,14 +117,14 @@
                     </div>
                 </div>
             </div>
-            <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first">
+            {{-- <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first">
                 <div class="gdlr-core-pbf-column-content-margin gdlr-core-js">
                     <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
                         <div class="gdlr-core-pbf-element">
                             <div
                                 class="gdlr-core-button-item gdlr-core-item-pdlr gdlr-core-item-pdb gdlr-core-center-align">
                                 <a class="gdlr-core-button gdlr-core-button-transparent gdlr-core-center-align gdlr-core-button-with-border"
-                                    href="{{route('apartments')}}"
+                                    href="{{ route('apartments') }}"
                                     style="
                                 font-size: 13px;
                                 font-style: normal;
@@ -150,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
 
     </div>
