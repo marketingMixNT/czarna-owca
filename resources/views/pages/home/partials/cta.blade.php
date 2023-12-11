@@ -55,7 +55,7 @@
                 <div class="gdlr-core-pbf-element">
                     <div class="gdlr-core-image-item gdlr-core-item-pdb gdlr-core-center-align gdlr-core-item-pdlr">
                         <div class="gdlr-core-image-item-wrap gdlr-core-media-image gdlr-core-image-item-style-rectangle" style="border-width: 0px;">
-                            <img src="{{asset('assets/images/owce-dwie_1.webp')}}" alt="" width="570" height="450" title="hotel-about-right-img"  style="max-height:600px;object-fit:cover"/>
+                            <img src="{{asset('assets/images/owce-dwie_2.webp')}}" alt="" width="570" height="450" title="hotel-about-right-img"  style="max-height:600px;object-fit:cover"/>
                         </div>
                     </div>
                 </div>

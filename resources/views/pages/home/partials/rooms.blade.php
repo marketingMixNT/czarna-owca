@@ -76,7 +76,7 @@
                                         </x-room-card>
                                         {{-- SECOND ROOM --}}
                                         <x-room-card href="{{ route('apartment-2') }}"
-                                            img="{{ asset('assets/images/owce-dwie_23.webp') }}" price="400 zł"
+                                            img="{{ asset('assets/images/owce-dwie_24.webp') }}" price="400 zł"
                                             title="Rodzinny Pokój Premiere z Balkonem">
                                             <div class="tourmaster-info-wrap clearfix">
 

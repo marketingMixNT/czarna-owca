@@ -1,6 +1,6 @@
 <x-layouts.master>
 
-    <x-breadcrumbs title="Galeria " bgi="{{asset('assets/images/owce-dwie_33.webp')}}"/>
+    <x-breadcrumbs title="Galeria " bgi="{{asset('assets/images/owce-dwie_34.webp')}}"/>
   
     <div class="hotale-page-wrapper" id="hotale-page-wrapper">
         <div class="gdlr-core-page-builder-body">

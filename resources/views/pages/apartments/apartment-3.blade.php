@@ -70,8 +70,8 @@
         
 
         <x-slot name="gallery">
-        <x-apartment.galleryItem src="{{asset('assets/images/owce-dwie_3.webp')}}"/>
-        <x-apartment.galleryItem src="{{asset('assets/images/owce-dwie_1.webp')}}"/>
+        <x-apartment.galleryItem src="{{asset('assets/images/owce-dwie_4.webp')}}"/>
+        <x-apartment.galleryItem src="{{asset('assets/images/owce-dwie_2.webp')}}"/>
         <x-apartment.galleryItem src="{{asset('assets/images/owce-dwie_14.webp')}}"/>
         <x-apartment.galleryItem src="{{asset('assets/images/owce-dwie_24.webp')}}"/>
 
@@ -82,14 +82,14 @@
             title='Rodzinny Pokój Deluxe z Balkonem'
             price="399 zł"
             href="{{route('apartment-1')}}"
-            img="{{asset('assets/images/owce-dwie_3.webp')}}"
+            img="{{asset('assets/images/owce-dwie_4.webp')}}"
             guests="max 4 os."
             />
             <x-apartment.moreRoomsItem 
             title='Rodzinny Pokój Premiere z Balkonem'
             price="499 zł"
             href="{{route('apartment-2')}}"
-            img="{{asset('assets/images/owce-dwie_23.webp')}}"
+            img="{{asset('assets/images/owce-dwie_24.webp')}}"
             guests="max 4 os."
             />
            

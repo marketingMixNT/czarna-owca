@@ -1,5 +1,5 @@
 <x-layouts.master>
-<x-breadcrumbs title="Kontkt" bgi="{{asset('assets/images/owce-dwie_23.webp')}}"/>
+<x-breadcrumbs title="Kontakt" bgi="{{asset('assets/images/owce-dwie_24.webp')}}"/>
 
 @include('pages.contact.partials.contact')
 @include('pages.contact.partials.contact-form')

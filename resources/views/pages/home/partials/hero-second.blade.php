@@ -2,7 +2,7 @@
     <div class="gdlr-core-pbf-background-wrap" style="background-color: #0a0a0a;">
         <div
             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-            style="opacity: 0.6; background-image: url({{asset('assets/images/owce-dwie_33.webp')}}); background-size: cover; background-position: center;"
+            style="opacity: 0.6; background-image: url({{asset('assets/images/owce-dwie_34.webp')}}); background-size: cover; background-position: center;"
             data-parallax-speed="0"
         ></div>
     </div>

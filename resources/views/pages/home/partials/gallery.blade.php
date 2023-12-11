@@ -61,7 +61,7 @@
                     <div class="gdlr-core-pbf-background-wrap" >
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-                            style="background-image: url({{asset('assets/images/owce-dwie_11.webp')}}); background-size: cover; background-position: center;"
+                            style="background-image: url({{asset('assets/images/owce-dwie_12.webp')}}); background-size: cover; background-position: center;"
                             data-parallax-speed="0"
                         ></div>
                     </div>
@@ -83,7 +83,7 @@
                         <div
                             class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
                             style="
-                                background-image: url({{asset('assets/images/owce-dwie_21.webp')}});
+                                background-image: url({{asset('assets/images/owce-dwie_22.webp')}});
                                 opacity: 0.8;
                                 background-size: cover;
                                 background-position: center;

@@ -1,11 +1,11 @@
 <x-layouts.master>
 
 
-    <x-breadcrumbs title="Pokoje" bgi="{{ asset('assets/images/owce-dwie_25.webp') }}" />
+    <x-breadcrumbs title="Pokoje" bgi="{{ asset('assets/images/owce-dwie_26.webp') }}" />
 
         <x-apartments.grid>
             {{--APARTMENT ONE--}}
-           <x-apartments.card img="{{asset('assets/images/owce-dwie_25.webp')}}">
+           <x-apartments.card img="{{asset('assets/images/owce-dwie_26.webp')}}">
             <div class="tourmaster-room-content-wrap gdlr-core-skin-e-background" style="padding-top: 35px; padding-bottom: 40px; padding-left: 60px;">
                 <h3 class="tourmaster-room-title gdlr-core-skin-title" style="font-size: 30px; font-weight: 500; text-transform: none;">
                     <a href="{{route('apartment-1')}}">Rodzinny Pokój Deluxe z Balkonem</a>
@@ -24,7 +24,7 @@
             </div>
            </x-apartments.card>
             {{--APARTMENT TWO--}}
-            <x-apartments.card img="{{asset('assets/images/owce-dwie_3.webp')}}">
+            <x-apartments.card img="{{asset('assets/images/owce-dwie_4.webp')}}">
                 <div class="tourmaster-room-content-wrap gdlr-core-skin-e-background" style="padding-top: 35px; padding-bottom: 40px; padding-left: 60px;">
                     <h3 class="tourmaster-room-title gdlr-core-skin-title" style="font-size: 30px; font-weight: 500; text-transform: none;">
                         <a href="{{route('apartment-2')}}">Rodzinny Pokój  Premiere z Balkonem</a>
@@ -43,7 +43,7 @@
                 </div>
                </x-apartments.card>
                 {{--APARTMENT THREE--}}
-                <x-apartments.card img="{{asset('assets/images/owce-dwie_25.webp')}}">
+                <x-apartments.card img="{{asset('assets/images/owce-dwie_26.webp')}}">
                     <div class="tourmaster-room-content-wrap gdlr-core-skin-e-background" style="padding-top: 35px; padding-bottom: 40px; padding-left: 60px;">
                         <h3 class="tourmaster-room-title gdlr-core-skin-title" style="font-size: 30px; font-weight: 500; text-transform: none;">
                             <a href="single-room.html">Dwuosobowy Pokój Deluxe z Balkonem</a>
