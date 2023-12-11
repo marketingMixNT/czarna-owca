@@ -7,7 +7,7 @@
 
             
 
-            <x-attraction-card title="Darmowe Wi-Fi" img="{{ asset('assets/icons/wifi.png') }}" href="#">
+            <x-attraction-card title="Darmowe Wi-Fi" img="{{ asset('assets/icons/wifi-large.png') }}" href="#">
                 
             </x-attraction-card>
             <x-attraction-card title="Śniadania w formie bufetu" img="{{ asset('assets/icons/breakfast.png') }}" href="#">

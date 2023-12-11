@@ -1,9 +1,9 @@
-<div class="gdlr-core-pbf-wrapper hero-container" style="margin: 0px 0px 0px 0px; padding: 200px 0px 150px 0px;"
+<div class="gdlr-core-pbf-wrapper hero__container" style="margin: 0px 0px 0px 0px; padding: 200px 0px 150px 0px;"
     id="gdlr-core-wrapper-1">
 
     <div class="gdlr-core-pbf-background-wrap">
-        <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js"
-            style="background-image: url({{ asset('assets/images/owce-dwie_34.webp') }}); background-size: cover; background-position: center;"
+        <div class="gdlr-core-pbf-background gdlr-core-parallax gdlr-core-js hero__background"
+            style="background-image: url({{ asset('assets/images/owce-dwie_34.webp') }}); background-size: cover; "
             data-parallax-speed="0">
         </div>
         <div class="overlay"></div>
@@ -38,7 +38,7 @@
                     </div>
                 </div>
             </div>
-            <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first" id="gdlr-core-column-1">
+            {{-- <div class="gdlr-core-pbf-column gdlr-core-column-60 gdlr-core-column-first" id="gdlr-core-column-1">
                 <div class="gdlr-core-pbf-column-content-margin gdlr-core-js" style="padding: 50px 0px 0px 0px;">
                     <div class="gdlr-core-pbf-background-wrap"></div>
                     <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js">
@@ -133,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </div>
