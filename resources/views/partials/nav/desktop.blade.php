@@ -1,8 +1,8 @@
 <div class="hotale-navigation hotale-item-pdlr clearfix hotale-navigation-submenu-indicator desktop-nav-container">
    
-    <div class="hotale-main-menu-right-wrap clearfix hotale-item-mglr hotale-navigation-top" style="left:0">
+    <div class="hotale-main-menu-right-wrap clearfix hotale-item-mglr hotale-navigation-top nav--logo" style="left:0;top:-15px;display:none">
         <div class="tourmaster-room-navigation-checkout-wrap">
-          <img src="{{asset('assets/logo.png')}}" alt="" width="30px">
+          <img src="{{asset('assets/logo--dark.png')}}" alt="" width="160px"  >
           
         </div>
     </div>

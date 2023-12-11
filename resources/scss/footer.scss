@@ -30,6 +30,11 @@
         align-items: center;
         
     }
+    &__logo{
+        img{
+            width: 200px;
+        }
+    }
     &__columns {
         display: flex;
         flex-direction: column;

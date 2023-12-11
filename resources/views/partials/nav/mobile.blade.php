@@ -1,8 +1,8 @@
 <div class="hotale-mobile-header-wrap">
-    <div class="hotale-mobile-header hotale-header-background hotale-style-slide hotale-sticky-mobile-navigation nav__mobile" id="hotale-mobile-header">
-        <div class="hotale-mobile-header-container hotale-container clearfix" >
+    <div class="hotale-mobile-header hotale-header-background hotale-style-slide hotale-sticky-mobile-navigation nav__mobile" id="hotale-mobile-header" style="padding-top:0;padding-bottom:0">
+        <div class="hotale-mobile-header-container hotale-container clearfix">
             <div class="hotale-logo hotale-item-pdlr">
-                <div class="hotale-logo-inner">
+                <div class="hotale-logo-inner" style="max-width:140px">
                     <a class="hotale-fixed-nav-logo" href="{{route('home')}}">
                         <img
                             src="{{asset('assets/logo.png')}}"

@@ -10,15 +10,13 @@
                 </div>
             </div>
             <div class="hotale-logo hotale-item-pdlr">
-                <div class="hotale-logo-inner">
+                <div class="hotale-logo-inner" style="max-width:200px">
                     <a class="hotale-fixed-nav-logo" href="{{route('home')}}">
                         <img
                             src="{{asset('assets/logo.png')}}"
                             alt="hotel logo"
                             width="40"
                             height="40"
-                            title="logo-hotel-fixedx1"
-                            
                         />
                     </a>
                     <a class="hotale-orig-logo" href="{{route('home')}}">
